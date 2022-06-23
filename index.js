@@ -6,8 +6,8 @@ function guessNumber(number) {
     if (guess == randomNumber) {
         window.alert("the head or  tail is  matching")
     } else if (guess >= randomNumber || guess <= randomNumber) {
-        window.alert("the toss is not matching")
+        window.alert("the head or tail  is not matching")
     } else {
-        window.alert('wrong number')
+        window.alert('wrong input')
     }
 }
